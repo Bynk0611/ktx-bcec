@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng nhập Hệ thống KTX</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="login-container">
+  <div class="left-section">
+    <img src="/images/logo.jpg" alt="Logo BCEC" class="logo">
+    <h2>Chào mừng tới</h2>
+    <h1>Hệ thống quản lý KTX</h1>
+    <p>Hãy điền thông tin tài khoản để đăng nhập</p>
+
+    <form id="login-form">
+      <label for="student-id">Mã số Sinh viên</label>
+      <input type="text" id="student-id" placeholder="student1" required />
+
+      <label for="password">Mật khẩu</label>
+      <input type="password" id="password" placeholder="••••••••" required />
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div class="right-section">
+    <div class="background-overlay">
+      <h1>Trường Cao Đẳng Cơ Điện và Xây Dựng Bắc Ninh</h1>
+      <p class="timestamp">2:18 | 31/05/2020</p>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
